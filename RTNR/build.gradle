@@ -1,7 +1,5 @@
-plugins {
-    id 'com.android.library'
-    id 'maven-publish'
-}
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 // lib
 afterEvaluate {
@@ -11,7 +9,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.dl.rtnr' // package name
                 artifactId = 'RTNR' // module name
-                version = '1.0'
+                version = 'V1.0.0'
             }
 
             debug(MavenPublication) {
@@ -19,7 +17,7 @@ afterEvaluate {
                 from components.debug
                 groupId = 'com.dl.rtnr'
                 artifactId = 'RTNR'
-                version = '1.0'
+                version = 'V1.0.0'
             }
         }
     }
@@ -51,7 +49,6 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     testImplementation 'junit:junit:4.13.2'
