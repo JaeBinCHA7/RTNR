@@ -49,6 +49,12 @@ android {
 }
 
 dependencies {
+    implementation 'org.tensorflow:tensorflow-lite:+' // TFLite
+    implementation 'org.tensorflow:tensorflow-lite-support:0.3.0' // TFLite FileUtil
+    implementation files('libs/commons-math3-3.6.1.jar') // Complex, FFT
+    implementation files('libs/sound-1.1.1.jar') // STFT
+    implementation "org.tensorflow:tensorflow-lite-select-tf-ops:+" // TFLite LSTM
+
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     testImplementation 'junit:junit:4.13.2'
