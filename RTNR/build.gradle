@@ -9,7 +9,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.dl.rtnr' // package name
                 artifactId = 'RTNR' // module name
-                version = 'V1.0.0'
+                version = 'V2.0.0'
             }
 
             debug(MavenPublication) {
@@ -17,7 +17,7 @@ afterEvaluate {
                 from components.debug
                 groupId = 'com.dl.rtnr'
                 artifactId = 'RTNR'
-                version = 'V1.0.0'
+                version = 'V2.0.0'
             }
         }
     }
