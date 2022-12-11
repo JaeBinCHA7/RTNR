@@ -48,4 +48,7 @@ writeData = shortArrayToByteArray(shortData);
 For a detailed example, see the link.
 [[code]](https://github.com/JaeBinCHA7/NUNet-Realtime-SpeechEnhancement-Mobile-App)
 
-
+## Requirements
+ <img src="https://img.shields.io/badge/TensorFlow2.9-FF6F00?style=flat&logo=TensorFlow&logoColor=white"/> <img src="https://img.shields.io/badge/Python3.7-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/> <img src="https://img.shields.io/badge/Ubuntu20.04-E95420?style=flat&logo=Ubuntu&logoColor=white"/>
+ 
+This repo is tested with Ubuntu 20.04, Tensorflow 2.9, Python3.7, CUDA11.6. For package dependencies
